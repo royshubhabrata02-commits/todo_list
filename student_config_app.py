@@ -21,9 +21,6 @@ total_students = os.getenv("TOTAL_STUDENTS")
 debug = os.getenv("DEBUG")
 
 # TODO 6: Raise a clear error if trainer_name is missing.
-if trainer_name is None:
-    raise ValueError("trainer name is required")
-
 print(app_name)
 print("Trainer:", trainer_name)
 print("Batch:", batch_name)
