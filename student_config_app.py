@@ -30,5 +30,5 @@ print("Debug Mode:", debug)
 # Challenge:
 # Read MAX_ASSIGNMENT_SCORE, calculate 40 percent of it, and print the passing score.
 max_assignment_score = os.getenv("MAX_ASSIGNMENT_SCORE")
-passing_score = max_assignment_score * 0.4
+passing_score =int(max_assignment_score) * 0.4
 print(f"passing score is {passing_score}")
