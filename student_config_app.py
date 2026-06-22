@@ -15,7 +15,7 @@ trainer_name = os.getenv("TRAINER_NAME")
 batch_name = os.getenv("BATCH_NAME")
 
 # TODO 4: Read TOTAL_STUDENTS and convert it to an integer.
-total_students = int(os.getenv("TOTAL_STUDENTS"))
+total_students = os.getenv("TOTAL_STUDENTS")
 
 # TODO 5: Read DEBUG and convert it to a Boolean.
 debug = os.getenv("DEBUG")
